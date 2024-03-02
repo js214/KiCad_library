@@ -796,4 +796,15 @@
 		(remove_unused_layers no)
 		(uuid "afc303ce-fdf5-4de2-b796-86d04f46fcc8")
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-40-1EP_6x6mm_P0.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

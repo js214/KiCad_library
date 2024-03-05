@@ -493,6 +493,20 @@
 		(thermal_bridge_angle 45)
 		(uuid "ae349fb8-1eac-4595-a50c-2e5eb02ddfe8")
 	)
+	(pad "15" smd rect
+		(at 0 0)
+		(size 2.049999 2.049999)
+		(layers "B.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7def2345-56de-4619-b0a5-174757c4f21e")
+	)
+	(pad "15" smd rect
+		(at 0 0)
+		(size 2.049999 2.049999)
+		(layers "B.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "fca12a46-8284-4410-a0e0-4a9a20cd0b86")
+	)
 	(pad "15" thru_hole circle
 		(at 0 0.775)
 		(size 0.256249 0.256249)

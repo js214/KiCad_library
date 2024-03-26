@@ -120,7 +120,7 @@
 		(pos 109 6.9)
 		(comment "Paper format name")
 	)
-	(tbtext "Id: ${#}/${##}"
+	(tbtext "Sheet %S"
 		(name "")
 		(pos 24 4.1)
 		(comment "Sheet id")
@@ -192,16 +192,16 @@
 	)
 	(tbtext "Designed by ${DESIGNER}"
 		(name "")
-		(pos 86.139 3.7922)
+		(pos 57.183 7.0942)
 	)
 	(line
 		(name "")
 		(start 54.324 5.4522)
 		(end 54.324 2.0712)
 	)
-	(tbtext "Layout by ${LAYOUT}"
+	(tbtext "Layout by ${LAYOUT_FULL}"
 		(name "")
-		(pos 52.484 3.7922)
+		(pos 86.52 3.792)
 	)
 	(tbtext "${ADDRESS}"
 		(name "")
@@ -362,5 +362,14 @@
 			(xy 3.132 -5.061) (xy 3.134 -5.128) (xy 3.134 -5.155) (xy 3.139 -5.498) (xy 3.767 -5.522) (xy 4.284 -5.535)
 			(xy 4.743 -5.533)
 		)
+	)
+	(line
+		(name "")
+		(start 60.231 8.3642)
+		(end 60.231 5.5702)
+	)
+	(tbtext "Phone: ${LAYOUT_PHONE}"
+		(name "")
+		(pos 53.627 3.792)
 	)
 )

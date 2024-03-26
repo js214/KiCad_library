@@ -69,18 +69,38 @@
 		)
 	)
 	(attr through_hole)
-	(fp_poly
-		(pts
-			(xy -5.207 0) (xy 6.223 0) (xy 6.223 5.08) (xy 3.683 5.08) (xy 3.683 38.1) (xy 6.223 38.1) (xy 6.223 44.45)
-			(xy 3.683 44.45) (xy 3.683 60.96) (xy -5.207 60.96)
-		)
+	(fp_rect
+		(start -5.08 0.254)
+		(end 3.683 6.223)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "9f4e6f0e-1011-441e-9b4a-4244f87ec2c0")
+		(uuid "790a3b6d-71af-478f-a422-1a0cd6299cb2")
+	)
+	(fp_rect
+		(start -5.08 17.018)
+		(end 3.81 22.987)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9728c63c-ec29-42c7-a8d0-7f79a04dac30")
+	)
+	(fp_rect
+		(start -5.08 54.864)
+		(end 3.81 60.96)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f9622af5-268d-47e5-bb3e-95b25e260f3a")
 	)
 	(pad "1" connect roundrect
 		(at -2.8575 9.525)
@@ -107,29 +127,6 @@
 		(uuid "de6b7011-0c55-434f-96ba-422ea2db0cf6")
 	)
 	(pad "4" thru_hole circle
-		(at 5.079999 1.27 90)
-		(size 1.8 1.8)
-		(drill 0.9)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "7ca75596-7948-4d1f-a8b2-81fe800d8c4c")
-	)
-	(pad "5" thru_hole circle
-		(at 5.08 39.7002 90)
-		(size 1.8 1.8)
-		(drill 0.9)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "39a7680c-9897-4f3e-af37-3b041def7829")
-	)
-	(pad "6" connect rect
-		(at -0.762 30.48)
-		(size 8.89 60.96)
-		(layers "B.Cu" "B.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "a3e34c0b-190b-429b-981a-34de8f6ebce7")
-	)
-	(pad "6" thru_hole circle
 		(at 0 3.175)
 		(size 3.556 3.556)
 		(drill 3.048)
@@ -137,13 +134,13 @@
 		(remove_unused_layers no)
 		(uuid "287fd1ad-e188-4cb2-8539-20b79b8b2ab2")
 	)
-	(pad "6" connect circle
+	(pad "4" connect circle
 		(at 0 3.175)
 		(size 5.6 5.6)
 		(layers "F.Cu" "F.Mask")
 		(uuid "3eaa5b76-a696-4839-bf77-025076f70587")
 	)
-	(pad "6" thru_hole circle
+	(pad "4" thru_hole circle
 		(at 0 20.0152)
 		(size 3.556 3.556)
 		(drill 3.048)
@@ -151,27 +148,13 @@
 		(remove_unused_layers no)
 		(uuid "f79280e6-cb0d-4c18-ad77-d4caff07c91d")
 	)
-	(pad "6" connect circle
+	(pad "4" connect circle
 		(at 0 20.0152)
 		(size 5.6 5.6)
 		(layers "F.Cu" "F.Mask")
 		(uuid "01ea65e8-91b2-48d3-a394-849e1e6a4dca")
 	)
-	(pad "6" thru_hole circle
-		(at 0 40.9702)
-		(size 3.556 3.556)
-		(drill 3.048)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "1c856f96-61b3-4d6d-81e6-bc13e4cafdb8")
-	)
-	(pad "6" connect circle
-		(at 0 40.9702)
-		(size 5.6 5.6)
-		(layers "F.Cu" "F.Mask")
-		(uuid "2941b585-be6a-4dc4-92ec-48b2bb2a3985")
-	)
-	(pad "6" thru_hole circle
+	(pad "4" thru_hole circle
 		(at 0 57.785)
 		(size 3.556 3.556)
 		(drill 3.048)
@@ -179,27 +162,11 @@
 		(remove_unused_layers no)
 		(uuid "b40986a8-bc28-4590-99a6-3855f605acb6")
 	)
-	(pad "6" connect circle
+	(pad "4" connect circle
 		(at 0 57.785)
 		(size 5.6 5.6)
 		(layers "F.Cu" "F.Mask")
 		(uuid "ecd28a5d-76ab-4f57-bbac-dc4b6db09fed")
-	)
-	(pad "6" thru_hole rect
-		(at 5.079999 3.81 90)
-		(size 1.8 1.8)
-		(drill 0.9)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "ac82a93d-1561-423c-abc4-03bbf8841c88")
-	)
-	(pad "6" thru_hole rect
-		(at 5.08 42.2402 90)
-		(size 1.8 1.8)
-		(drill 0.9)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "f5eb0fbb-f24c-45b9-9e0c-246b25ac2250")
 	)
 	(model "C:/Users/Jkastelic/Documents/projects/CG790/mechanical/CG790_BNC_block.step"
 		(offset

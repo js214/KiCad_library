@@ -120,7 +120,7 @@
 		(pos 109 6.9)
 		(comment "Paper format name")
 	)
-	(tbtext "Sheet %S"
+	(tbtext "Sheet ${#}"
 		(name "")
 		(pos 24 4.1)
 		(comment "Sheet id")
@@ -371,5 +371,17 @@
 	(tbtext "Phone: ${LAYOUT_PHONE}"
 		(name "")
 		(pos 53.627 3.792)
+	)
+	(tbtext "Sheet: ${SHEETPATH}"
+		(name "")
+		(pos 42.197 17.0002)
+	)
+	(tbtext "File: ${FILENAME}"
+		(name "")
+		(pos 42.197 14.3002)
+	)
+	(tbtext "Kit ${KIT_NUMBER}"
+		(name "")
+		(pos 72.423 17.0002)
 	)
 )

@@ -2,29 +2,27 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "Conn_Coaxial"
-		(pin_names
-			(offset 1.016) hide)
+	(symbol "CONBNC001"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0.254 3.048 0)
+			(at 0 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_Coaxial"
-			(at 2.921 0 90)
+		(property "Value" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SRS_connectors:COAX4_CONBNC001_TEC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -42,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -51,29 +49,35 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+		(symbol "CONBNC001_0_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 4.572 0)
 				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(stroke
+					(width 0)
+					(type default)
 				)
-				(hide yes)
+				(fill
+					(type none)
+				)
 			)
-		)
-		(symbol "Conn_Coaxial_0_1"
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 5.08 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(arc
-				(start -1.778 -0.508)
-				(mid 0.2311 -1.8066)
-				(end 1.778 0)
+				(start 3.302 -0.508)
+				(mid 5.302 -1.808)
+				(end 6.858 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -82,44 +86,8 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -0.508 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
-				(center 0 0)
+				(center 5.08 0)
 				(radius 0.508)
 				(stroke
 					(width 0.2032)
@@ -130,9 +98,9 @@
 				)
 			)
 			(arc
-				(start 1.778 0)
-				(mid 0.2099 1.8101)
-				(end -1.778 0.508)
+				(start 6.858 0)
+				(mid 5.3021 1.8083)
+				(end 3.302 0.508)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -142,9 +110,9 @@
 				)
 			)
 		)
-		(symbol "Conn_Coaxial_1_1"
+		(symbol "CONBNC001_1_1"
 			(pin passive line
-				(at -5.08 0 0)
+				(at 0 0 0)
 				(length 2.54)
 				(name "In"
 					(effects
@@ -154,6 +122,78 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -5.08 90)
+				(length 2.54)
+				(name "Ext"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -5.08 90)
+				(length 2.54)
+				(name "Ext"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -5.08 90)
+				(length 2.54)
+				(name "Ext"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -5.08 90)
+				(length 2.54)
+				(name "Ext"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)

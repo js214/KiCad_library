@@ -132,6 +132,7 @@
 		(drill 3.048)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "287fd1ad-e188-4cb2-8539-20b79b8b2ab2")
 	)
 	(pad "4" connect circle
@@ -146,6 +147,7 @@
 		(drill 3.048)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "f79280e6-cb0d-4c18-ad77-d4caff07c91d")
 	)
 	(pad "4" connect circle
@@ -160,6 +162,7 @@
 		(drill 3.048)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "b40986a8-bc28-4590-99a6-3855f605acb6")
 	)
 	(pad "4" connect circle
